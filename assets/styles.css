@@ -36,9 +36,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:60px;
+  font-size:48px;
   line-height:1;
-  font-family: Times;
 }
 
 h2 {
@@ -56,13 +55,22 @@ a {
 }
 
 .wrapper {
-  width:805px;
+  width:780px;
   margin:0 auto;
 }
 
 .content {
   width: 580px;
-  margin-top: 40px;
+  margin-top: 20px;
+}
+
+.book {
+  padding-top: 20px;
+}
+.book img {
+  float: right;
+  margin: 4px 0 20px 20px;
+  width: 150px;
 }
 
 #footer {
@@ -127,9 +135,13 @@ small {
   font-size:11px;
 }
 
+p {
+  margin-top: 4px;
+}
+
 .deck p {
-  font-size: 26px;
-  line-height: 32px;
+  font-size: 22px;
+  line-height: 28px;
 }
 
 .person {
@@ -188,6 +200,11 @@ small {
 
   h1 {
     font-size: 36px;
+  }
+
+  .book img {
+    width: 100px;
+    margin-bottom: 0;
   }
 
   .deck p {
