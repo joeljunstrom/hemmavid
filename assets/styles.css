@@ -42,6 +42,8 @@ h1 {
 
 h2 {
   color:#393939;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 h3, h4, h5, h6 {
@@ -150,10 +152,6 @@ p {
 .person h2,
 .person h2 + p {
   display: inline;
-}
-.person h2 {
-  font-size: 18px;
-  line-height: 25px;
 }
 
 @media print, screen and (max-width: 960px) {
